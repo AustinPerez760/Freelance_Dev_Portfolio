@@ -138,3 +138,13 @@ a:hover {
     display: flex;
   }
 }
+
+/* Sections */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 20px;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
