@@ -144,7 +144,7 @@ a:hover {
 section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 20px;
+  margin: 0 160px;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -259,4 +259,49 @@ section {
 #about-me-hawaii {
   width: 400px;
   height: 400px;
+}
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 32px;
+}
+
+.arrow {
+  position: absolute;
+  right: -80px;
+  bottom: 36px;
+}
+
+.details-container {
+  padding: 24px;
+  flex: 1;
+  background: white;
+  border-radius: 32px;
+  border: rgb(53, 53, 53) 1px solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section__container {
+  gap: 64px;
+  height: 80%;
 }
