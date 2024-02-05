@@ -9,6 +9,10 @@ body {
   font-family: 'Kanit', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a,
 .btn {
   transition: all 300ms ease;
