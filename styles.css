@@ -360,6 +360,7 @@ article .icon {
   border-radius: 32px;
   border: grey 1px solid;
   border-color: rgb(163, 163, 163);
+  background: white;
   margin: 32px auto;
   padding: 8px;
 }
@@ -388,7 +389,7 @@ article .icon {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
+  margin: 0 16px;
 }
 
 footer p {
@@ -413,5 +414,33 @@ footer p {
   }
   #hamburger-nav {
     display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 32px;
+  }
+  #profile,
+  .section__container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section__container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container,
+  #main-profile-pic,
+  #about-me-hawaii {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 32px;
+  }
+  .about-containers {
+    margin-top: 0;
   }
 }
