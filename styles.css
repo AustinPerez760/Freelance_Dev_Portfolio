@@ -309,3 +309,45 @@ section {
   gap: 64px;
   height: 80%;
 }
+
+/* EXPERIENCE SECTION */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: grey;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+.article {
+  display: flex;
+  width: 80px;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+article,
+.icon {
+  cursor: default;
+}
+
+/* CONTACT SECTION */
