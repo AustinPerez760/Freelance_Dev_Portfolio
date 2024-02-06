@@ -147,7 +147,7 @@ section {
   display: flex;
 }
 
-/* Profile Section */
+/* PROFILE SECTION */
 
 #main-profile-pic {
   height: 400px;
@@ -249,7 +249,7 @@ section {
   background-color: black;
 }
 
-/* About Section */
+/* ABOUT ME SECTION */
 #about-me-hawaii {
   width: 400px;
   height: 400px;
@@ -298,6 +298,12 @@ section {
 .section__container {
   gap: 64px;
   height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
@@ -391,11 +397,21 @@ footer p {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
   }
 }
