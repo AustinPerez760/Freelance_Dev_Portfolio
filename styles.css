@@ -397,15 +397,6 @@ footer p {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1200px) {
-  #desktop-nav {
-    display: none;
-  }
-  #hamburger-nav {
-    display: flex;
-  }
-}
-
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -413,5 +404,14 @@ footer p {
   }
   .about-containers {
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
   }
 }
